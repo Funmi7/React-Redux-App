@@ -18,7 +18,6 @@ import {connect} from 'react-redux'
                 img={character.img}
                 name={character.name}
                 nickname={character.nickname}
-                birthday={character.birthday}
                 />
             )
         })

@@ -5,15 +5,14 @@ import * as actionCreators from './state/actionCreators';
 import CharactersList from './components/CharactersList';
 
 export function App(props) {
-  const {fetchCharacters, characters} = props;
 
 
   return (
+    <div>
+      <h2 >Breaking Bad Characters!</h2>
     <div className="App">
-      <CharactersList
-      // characters={characters} 
-      // showCharacters={showCharacters}
-      />
+      <CharactersList/>
+    </div>
     </div>
   );
 }
