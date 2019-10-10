@@ -1,0 +1,1 @@
+export const SHOW_CHARACTERS = 'SHOW_CHARACTERS';
